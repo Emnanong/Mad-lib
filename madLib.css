@@ -1,0 +1,15 @@
+body{
+background-color: rgb(199, 194, 249);
+}
+p{
+    text-align: center;
+    color: rgb(9, 7, 132);
+}
+.container {
+    width: 50%;
+    border: 5px solid rgb(249, 252, 249);
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    
+}

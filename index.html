@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="madLib.css">
+        <title>Mad Libs</title>
+        <script src="madLib.js"></script>
+    </head>
+
+<body>
+<div class ="container">
+<img src = "https://www.madlibs.com/wp-content/themes/madlibs/assets/images/mdl_logo.png" width="20%" height="auto" alt="mad libs logo">
+<p>Please enter the following information:</p>
+<form id="madlib-form" name="madlib-form" onsubmit="submitMadlibs(event)">
+<input id="noun1" placeholder="Noun"><br>
+<input id="pluralnoun1" placeholder="Plural noun"><br>
+<input id="v.ing" placeholder="Verb ing"><br>
+<input id="verb" placeholder="Another verb"><br>
+<input id="partofbody" placeholder="Part of body (plurals)"><br>
+<input id="adjective1" placeholder="Adjective"><br>
+<input id="pluralnoun2" placeholder="plural noun"><br>
+<input id="adjective2" placeholder="Adjective"><br>
+
+<button onclick="madlibBtn()">Submit</button>	
+<button id="madlibs-reset" onclick="resetMadLibs()">Play Again</button>
+</form>
+<span id="story"></span>
+</div>
+</body>
+</html> 
